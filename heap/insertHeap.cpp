@@ -36,7 +36,7 @@ class heap{
         this->size = 0;
     }
 
-    //Function to insert data
+    //Function to insert data       TIME COMPLEXITY --> O(log n)
     void insertHeap(int data){
         size = size + 1;
         int index = size;
@@ -65,10 +65,9 @@ class heap{
 int main(){
     heap h;
     h.insertHeap(50);
-    h.insertHeap(55);
-    h.insertHeap(53);
-    h.insertHeap(52);
-    h.insertHeap(54);
+    h.insertHeap(46);
+    h.insertHeap(35);
+    h.insertHeap(60);
     h.print();
     return 0;
 }
