@@ -22,6 +22,8 @@ LEKIN
 Agar Kth LARGEST bolega to MINHeap lga ke nikal lenge
 */
 
+//SpaceComplexity --> O(K)   && TimeComplexity --> ?
+
 //GFG Implementation
 
 class Solution{
